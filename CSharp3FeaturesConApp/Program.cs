@@ -112,6 +112,16 @@ namespace CSharp3FeaturesConApp
       }
       #endregion
 
+      #region with Query Expression 
+      var result = (from e in empList
+                   where e.Age > 27
+                   select new {Name = e.EmpName, Age = e.Age, Sal = e.Salary}).ToList();
+      foreach (var item in result)
+      {
+        Console.WriteLine(item);
+      }
+      #endregion
+
     }
 
     static bool GetByAge(Employee emp)
@@ -121,4 +131,7 @@ namespace CSharp3FeaturesConApp
       return false;
     }
   }
+  // initialization of class 
+  // lambda 
+  
 }
