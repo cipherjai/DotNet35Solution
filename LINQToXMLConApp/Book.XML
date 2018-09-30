@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<BookCatalog>
+	<Book ISBN="1001" Category="Fiction">
+		<Title>Bourne Identity</Title>
+		<Author>
+			<Title>Mr.</Title>
+			<FirstName>Robert</FirstName>
+			<LastName>Ludlum</LastName>
+		</Author>
+		<Price>1000</Price>
+	</Book>
+
+	<Book ISBN="1002" Category="Fiction">
+		<Title>Bourne Legacy</Title>
+		<Author>
+			<Title>Mr.</Title>
+			<FirstName>Robert</FirstName>
+			<LastName>Ludlum</LastName>
+		</Author>
+		<Author>
+			<Title>Mr.</Title>
+			<FirstName>Eric</FirstName>
+			<LastName>Van</LastName>
+		</Author>
+		<Price>1200</Price>
+	</Book>
+
+	<Book ISBN="1003" Category="Non Fiction">
+		<Title>Atlas</Title>
+		<Author>
+			<Title>Mr.</Title>
+			<FirstName>Ian</FirstName>
+			<LastName>Rayn</LastName>
+		</Author>
+		<Price>800</Price>
+	</Book>
+
+	<Book ISBN="1004" Category="Science Fiction">
+		<Title>Clear Present And Danger</Title>
+		<Author>
+			<Title>Mr.</Title>
+			<FirstName>Tom</FirstName>
+			<LastName>Clancy</LastName>
+		</Author>
+		<Price>1500</Price>
+	</Book>
+
+	<Book ISBN="1005" Category="Thriller">
+		<Title>Brotherhood of Rose</Title>
+		<Author>
+			<Title>Mr.</Title>
+			<FirstName>David</FirstName>
+			<LastName>Morel</LastName>
+		</Author>
+		<Price>1100</Price>
+	</Book>
+
+	<Book ISBN="1006" Category="Fiction">
+		<Title>Bourne Betrayal</Title>
+		<Author>
+			<Title>Mr.</Title>
+			<FirstName>Robert</FirstName>
+			<LastName>Ludlum</LastName>
+		</Author>
+		<Author>
+			<Title>Mr.</Title>
+			<FirstName>Harry</FirstName>
+			<LastName>Potter</LastName>
+		</Author>
+		<Price>1200</Price>
+	</Book>
+</BookCatalog>
